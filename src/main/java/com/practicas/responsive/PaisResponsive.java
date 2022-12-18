@@ -1,5 +1,9 @@
 package com.practicas.responsive;
 
-public interface PaisResponsive {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.practicas.entities.Pais;
+
+public interface PaisResponsive extends JpaRepository<Pais, Integer>{
 
 }
